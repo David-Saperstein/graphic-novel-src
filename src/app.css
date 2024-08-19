@@ -1,0 +1,20 @@
+@tailwind base;
+@layer base {
+    img {
+      @apply inline-block;
+    }
+  }
+@tailwind components;
+@tailwind utilities;
+
+.moveable-origin {
+    display: none;
+}
+
+.moveable-normal.red {
+  background: red !important;
+}
+
+.moveable-normal.green {
+  background: green !important;
+}
