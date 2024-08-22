@@ -15,7 +15,7 @@
   let dropDownSelection;
   let editor;
   let relSize = window.innerHeight;
-  let size = relSize / 5;
+  let size = relSize / 6;
   let gap = relSize / 200;
   let fontSize = relSize / 100;
   let selectionArray = writable([...Array(config.length).fill(false)]);
