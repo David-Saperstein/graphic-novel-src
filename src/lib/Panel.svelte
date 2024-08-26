@@ -113,8 +113,8 @@ isDisplaySnapDigit = {false}
 padding = {{"left":-gap,"top":-gap,"right":-gap,"bottom":-gap,"position":"css"}}
 bounds={{"left": 0,"top": 0,"right": 0,"bottom": 0,"position":"css"}}
 snapContainer = {pageRef}
-verticalGuidelines = {[{pos: "25%", className: "red"}, "33.33%", {pos: "50%", className: "red"}, "66.66%", {pos: "75%", className: "red"}]}
-horizontalGuidelines = {[{pos: "20%", className: "green"}, {pos: "25%", className: "red"}, "33.33%", {pos: "40%", className: "green"}, {pos: "50%", className: "red"}, {pos: "60%", className: "green"}, "66.66%", {pos: "75%", className: "red"}, {pos: "80%", className: "green"}]}
+verticalGuidelines = {[{pos: "25%", className: "red"}, {pos: "33.33%", className: "purple"}, {pos: "50%", className: "red"}, {pos: "66.66%", className: "purple"}, {pos: "75%", className: "red"}]}
+horizontalGuidelines = {[{pos: "20%", className: "green"}, {pos: "25%", className: "red"}, {pos: "33.33%", className: "purple"}, {pos: "40%", className: "green"}, {pos: "50%", className: "red"}, {pos: "60%", className: "green"}, {pos: "66.66%", className: "purple"}, {pos: "75%", className: "red"}, {pos: "80%", className: "green"}]}
 on:drag = {({detail: e}) => {
     e.target.style.transform = e.transform;
 }}

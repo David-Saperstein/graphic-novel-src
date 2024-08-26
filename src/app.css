@@ -18,3 +18,7 @@
 .moveable-normal.green {
   background: green !important;
 }
+
+.moveable-normal.purple {
+  background: magenta !important;
+}
