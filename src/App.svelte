@@ -6,7 +6,7 @@
   import RefPage from "./lib/RefPage.svelte";
   import Quill from "quill";
   import html2canvas from "html2canvas";
-  let config = [];
+  let config = [{"dialogueBoxes": [{"text":"Example speech bubble", "type": "speech"}, {"text":"Example caption", "type": "caption"}]},{"dialogueBoxes": [{"text":"Example speech bubble", "type": "speech"}, {"text":"Example caption", "type": "caption"}]},{"dialogueBoxes": [{"text":"Example speech bubble", "type": "speech"}, {"text":"Example caption", "type": "caption"}]},{"dialogueBoxes": [{"text":"Example speech bubble", "type": "speech"}, {"text":"Example caption", "type": "caption"}]}]
   let refConfig = [];
   let screenshotRef;
   let page;
